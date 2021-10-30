@@ -36,14 +36,14 @@ async def hmm(yes):
     ghanti = borg.uid
     await yes.delete()
     uptime = await sbdef.get_readable_time((time.time() - Lastupdate))
-    pm_caption = "**✧✧ 𝙎𝙪𝙥𝙚𝙧𝘽𝙤𝙩 𝙞𝙨 𝙐𝙥 𝙖𝙣𝙙 𝙍𝙪𝙣𝙣𝙞𝙣𝙜 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮 ✧✧**\n\n"
-    pm_caption += "**𝑨𝒍𝒍 𝒕𝒉𝒆 𝑺𝒚𝒔𝒕𝒆𝒎𝒔 𝒂𝒏𝒅 𝑫𝒂𝒕𝒂𝑩𝒂𝒔𝒆𝒔 𝒂𝒓𝒆 𝑭𝒖𝒏𝒄𝒕𝒊𝒐𝒏𝒊𝒏𝒈 𝑷𝒓𝒐𝒑𝒆𝒓𝒍𝒚, 𝒂𝒔 𝒕𝒉𝒆𝒚 𝒔𝒉𝒐𝒖𝒍𝒅 𝒅𝒐.**\n\n"
-    pm_caption += "✘ 𝐼𝑛𝑓𝑜 𝐴𝑏𝑜𝑢𝑡 𝑀𝑦 𝑆𝑦𝑠𝑡𝑒𝑚 ✘\n\n"
-    pm_caption += f"➥ **Tᴇʟᴇᴛʜᴏɴ Vᴇʀꜱɪᴏɴ :** `{version.__version__}`\n"
-    pm_caption += "➥ **Sᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ :** [Jᴏɪɴ](https://t.me/SuperBot_SupportChat)\n"
-    pm_caption += "➥ **Cᴏᴘʏʀɪɢʜᴛ Bʏ :** [𝐒𝐮𝐩𝐞𝐫𝐁𝐨𝐭](https://github.com/MadBoy-X/SuperBot)\n\n"
-    pm_caption += f"➥ **Uᴘᴛɪᴍᴇ :** `{uptime}`\n\n"
-    pm_caption += f"➥ **Mʏ Mᴀsᴛᴇʀ :** [{DEFAULTUSER}](tg://user?id={ghanti})\n"
+    pm_caption = "**✧✧ SuPeRBoT is running smoothly ✧✧**\n\n"
+    pm_caption += "**EVERYTHING IS NORMAL ✅.**\n\n"
+    pm_caption += "✘ System Info✘\n\n"
+    pm_caption += f"➥ **Telethon version :** `{version.__version__}`\n"
+    pm_caption += "➥ **Updates Cʜᴀɴɴᴇʟ :** [Jᴏɪɴ](https://t.me/SuperBot_SupportChat)\n"
+    pm_caption += "➥ **Copyright By:** [SuperBot](https://github.com/MadBoy-X/SuperBot)\n\n"
+    pm_caption += f"➥ **UPTIME :** `{uptime}`\n\n"
+    pm_caption += f"➥ **MY MASTER :** [{DEFAULTUSER}](tg://user?id={ghanti})\n"
     on = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption)
 
     await asyncio.sleep(edit_time)
