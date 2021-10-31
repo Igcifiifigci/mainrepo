@@ -84,10 +84,6 @@ UnFortunately, there are no Mandatory vars for the UniBorg Support Config.
 ## • LEGEND X »» <a href="https://github.com/LEGENDXOP" alt="LEGEND X"> <img src="https://img.shields.io/badge/Legend X-8f4b3d?logo=github" /></a>
 ## • DarkCobra »» <a href="https://github.com/DARK-COBRA/DARKCOBRA" alt="DARK COBRA"> <img src="https://img.shields.io/badge/DARK COBRA-b0559d?logo=github" /></a>
 ## • UltraX DEVs »» <a href="https://github.com/ULTRA-OP/ULTRA-X" alt="ULTRA X"> <img src="https://img.shields.io/badge/ULTRA X-7ad335?logo=github" /></a>
-
--------------------------------------------------
-
-# Kᴀɴɢᴇʀs 🤬
 ## • JassManak »» <a href="https://github.com/JassManak1125" alt="JassManak"> <img src="https://img.shields.io/badge/JassManak (Kanger)-FFC0CB?logo=github" /></a>
 
 -------------------------------------------------
