@@ -30,7 +30,7 @@ async def cmd_list(event):
                         out_file,
                         force_document=True,
                         allow_cache=False,
-                        caption="**ᴄᴏᴍᴍᴀɴᴅs** ɪɴ sᴜᴘᴇʀʙᴏᴛ..",
+                        caption="""ᴄᴏᴍᴍᴀɴᴅs"" ɪɴ sᴜᴘᴇʀʙᴏᴛ..",
                         reply_to=reply_to_id
                     )
                     await event.delete()
