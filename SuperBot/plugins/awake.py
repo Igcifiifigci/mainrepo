@@ -1,6 +1,4 @@
-
 """Check if SuperBot awake or not . 
-
 """
 import os
 import asyncio
@@ -24,6 +22,17 @@ if ALIVE_PIC is None:
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 
+ALIVE_MESSAGE = Config.ALIVE_MSG
+if ALIVE_MESSAGE is None:
+   ALIVE_MESSAGE =
+   ALIVE_MESSAGE += 
+   ALIVE_MESSAGE += 
+   ALIVE_MESSAGE += 
+   ALIVE_MESSAGE += 
+   ALIVE_MESSAGE += 
+   ALIVE_MESSAGE += 
+                
+            
 #@command(outgoing=True, pattern="^.awake$")
 @borg.on(admin_cmd(pattern=r"awake"))
 async def amireallyalive(awake):
