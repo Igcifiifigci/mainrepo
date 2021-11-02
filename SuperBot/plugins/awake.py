@@ -24,14 +24,8 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars 
 
 ALIVE_MESSAGE = Config.ALIVE_MSG
 if ALIVE_MESSAGE is None:
-   ALIVE_MESSAGE =
-   ALIVE_MESSAGE += 
-   ALIVE_MESSAGE += 
-   ALIVE_MESSAGE += 
-   ALIVE_MESSAGE += 
-   ALIVE_MESSAGE += 
-   ALIVE_MESSAGE += 
-                
+   ALIVE_MESSAGE = "\n\nsᴜᴘᴇʀʙᴏᴛ ᴀʟᴡᴀʏs ᴡɪᴛʜ ʏᴏᴜ {DEFAULTUSER} ʙᴀʙᴇs..♥️"
+   
             
 #@command(outgoing=True, pattern="^.awake$")
 @borg.on(admin_cmd(pattern=r"awake"))
