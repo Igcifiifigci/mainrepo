@@ -24,7 +24,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars 
 
 ALIVE_MESSAGE = Config.ALIVE_MSG
 if ALIVE_MESSAGE is None:
-   ALIVE_MESSAGE = "\n\nsᴜᴘᴇʀʙᴏᴛ ᴀʟᴡᴀʏs ᴡɪᴛʜ ʏᴏᴜ {DEFAULTUSER} ʙᴀʙᴇs..♥️"
+   ALIVE_MESSAGE = "\n\nsᴜᴘᴇʀʙᴏᴛ ᴀʟᴡᴀʏs ᴡɪᴛʜ ʏᴏᴜ ʙᴀʙᴇs..♥️"
    
             
 #@command(outgoing=True, pattern="^.awake$")
