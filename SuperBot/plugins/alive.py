@@ -34,7 +34,7 @@ async def hmm(yes):
     ghanti = borg.uid
     await yes.delete()
     uptime = await sbdef.get_readable_time((time.time() - Lastupdate))
-    pm_caption = "**🌸🔥 sᴜᴘᴇʀʙᴏᴛ ᴀʟᴡᴀʏs ᴏɴ ғɪʀᴇ.. 🔥🌸**\n\n"
+    pm_caption = "**🌸🔥 sᴜᴘᴇʀʙᴏᴛ ᴀʟᴡᴀʏs ᴏɴ ғɪʀᴇ.. 🔥🌸**\n\n\n"
     pm_caption += "😎 ᴀʙᴏᴜᴛ sᴜᴘᴇʀʙᴏᴛ 😎\n\n"
     pm_caption += f"📍 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ »»** `{version.__version__}`\n"
     pm_caption += "📍 **ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ »»** [ᴍᴜsᴛ ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ](https://t.me/SuperBotOT)\n\n"
