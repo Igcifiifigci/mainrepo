@@ -35,11 +35,10 @@ async def hmm(yes):
     await yes.delete()
     uptime = await sbdef.get_readable_time((time.time() - Lastupdate))
     pm_caption = "**🌸🔥 sᴜᴘᴇʀʙᴏᴛ ᴀʟᴡᴀʏs ᴏɴ ғɪʀᴇ.. 🔥🌸**\n\n"
-    pm_caption += "sᴀʙ ʙᴅɪʏᴀ ᴠᴍʀᴏᴏ.. 😉\n\n"
     pm_caption += "😎 ᴀʙᴏᴜᴛ sᴜᴘᴇʀʙᴏᴛ 😎\n\n"
     pm_caption += f"📍 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ »»** `{version.__version__}`\n"
-    pm_caption += "📍 **ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ »»** [ᴍᴜsᴛ ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ](https://t.me/SuperBotOT)\n"
-    pm_caption += "📍 **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ™ »»** [ᴛᴇᴀᴍ sᴜᴘᴇʀʙᴏᴛ 😎](https://github.com/MadBoy-X/SuperBot)\n\n"
+    pm_caption += "📍 **ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ »»** [ᴍᴜsᴛ ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ](https://t.me/SuperBotOT)\n\n"
+    pm_caption += "📍 **ᴄʀᴇᴀᴛᴏʀ »»** [ᴛᴇᴀᴍ sᴜᴘᴇʀʙᴏᴛ 😎](https://github.com/MadBoy-X/SuperBot)\n\n"
     pm_caption += f"📍 **ᴍʏ ᴏᴡɴᴇʀ 👑  »»** [{DEFAULTUSER}](tg://user?id={ghanti})\n"
     on = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption)
 
