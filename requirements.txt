@@ -69,7 +69,6 @@ spamwatch
 selenium
 speedtest-cli>=2.0.2
 spotify_token
-spotdl
 sqlalchemy>=1.2
 telegraph
 twitter_scraper
@@ -77,7 +76,6 @@ html-telegraph-poster
 urbandict>=0.5
 validators
 wikipedia>=1.4.0
-youtube-dl
 youtube-search-python
 tswift
 telethon==1.23.0
